@@ -9,7 +9,7 @@
       </el-col>
     </el-row>
     <el-row :span="24">
-      3
+      <artistic/>
     </el-row>
   </div>
 </template>
@@ -17,10 +17,12 @@
 <script>
 import Emenu from '@/components/index/menu'
 import Slider from '@/components/index/slider'
+import Artistic from '@/components/index/artistic'
 export default {
   components: {
     Emenu,
-    Slider
+    Slider,
+    Artistic
   }
 }
 </script>
